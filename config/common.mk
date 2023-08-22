@@ -262,3 +262,4 @@ include vendor/lineage/config/version.mk
 # Pixelstar
 $(call inherit-product, vendor/lineage/config/pixelstar.mk)
 $(call inherit-product-if-exists, vendor/certification/config.mk)
+include packages/overlays/Themes/themes.mk
