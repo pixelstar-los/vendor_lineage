@@ -238,6 +238,12 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     dalvik.vm.systemuicompilerfilter=speed
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/lineage/overlay/no-rro
+
+# Cache clenaer
+PRODUCT_PACKAGES += \
+    init.cache_cleaner.rc \
+    init.cache_cleaner.sh
+    
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/lineage/overlay/common \
     vendor/lineage/overlay/no-rro
