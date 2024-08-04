@@ -263,3 +263,6 @@ include vendor/lineage/config/version.mk
 $(call inherit-product, vendor/lineage/config/pixelstar.mk)
 $(call inherit-product-if-exists, vendor/certification/config.mk)
 include packages/overlays/Themes/themes.mk
+
+# Google Apps
+$(call inherit-product, vendor/google/gms/products/gms.mk)

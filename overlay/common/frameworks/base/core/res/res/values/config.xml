@@ -42,19 +42,6 @@
         <item>org.microg.nlp</item>
     </string-array>
 
-    <string-array name="config_locationExtraPackageNames" translatable="false">
-        <!-- Bluetooth -->
-        <item>com.android.bluetooth</item>
-        <!-- TeleService -->
-        <item>com.android.phone</item>
-        <!-- CneApp -->
-        <item>com.qualcomm.qti.cne</item>
-        <!-- ImsService -->
-        <item>com.shannon.imsservice</item>
-        <!-- MediaTek ImsService -->
-        <item>com.mediatek.ims</item>
-    </string-array>
-
     <!-- Enable lockscreen rotation by default -->
     <bool name="config_enableLockScreenRotation">true</bool>
 
@@ -114,14 +101,6 @@
         <item>im.vector.app</item>
         <item>cx.ring</item>
         <item>org.briarproject.briar.android</item>
-    </string-array>
-
-    <!-- Define device configs on boot -->
-    <string-array name="global_device_configs_override">
-       <!-- Enable app cloning  -->
-       <item>app_cloning/cloned_apps_enabled=true</item>
-       <item>app_cloning/delete_all_app_clones_enabled=true</item>
-       <item>app_cloning/enable_app_cloning_building_blocks=true</item>
     </string-array>
     
     <!-- Flag indicating which package name can access DeviceConfig table -->
