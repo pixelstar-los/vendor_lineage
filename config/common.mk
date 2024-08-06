@@ -187,6 +187,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     BtHelper
 
+# GameSpace
+PRODUCT_PACKAGES += \
+    GameSpace
+    
 # Flags
 PRODUCT_PACKAGES += \
     SystemUIFlagFlipper
@@ -266,3 +270,6 @@ include packages/overlays/Themes/themes.mk
 
 # Google Apps
 $(call inherit-product, vendor/google/gms/products/gms.mk)
+
+# Certification
+$(call inherit-product-if-exists, vendor/certification/config.mk)
