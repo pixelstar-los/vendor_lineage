@@ -35,7 +35,7 @@ endif
 PRODUCT_COPY_FILES += \
     vendor/lineage/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
     vendor/lineage/prebuilt/common/bin/backuptool.functions:install/bin/backuptool.functions \
-    vendor/lineage/prebuilt/common/bin/50-lineage.sh:$(TARGET_COPY_OUT_SYSTEM)/addon.d/50-lineage.sh
+    vendor/lineage/prebuilt/common/bin/50-pixelstar.sh:$(TARGET_COPY_OUT_SYSTEM)/addon.d/50-pixelstar.sh
 
 PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
     system/addon.d/50-lineage.sh
@@ -63,7 +63,7 @@ PRODUCT_COPY_FILES += \
 
 # Lineage-specific init rc file
 PRODUCT_COPY_FILES += \
-    vendor/lineage/prebuilt/common/etc/init/init.lineage-system_ext.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.lineage-system_ext.rc
+    vendor/lineage/prebuilt/common/etc/init/init.pixelstar-system_ext.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.pixelstar-system_ext.rc
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
@@ -127,7 +127,7 @@ PRODUCT_PACKAGES += \
     LineageSettingsProvider
 
 PRODUCT_COPY_FILES += \
-    vendor/lineage/prebuilt/common/etc/init/init.lineage-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.lineage-updater.rc
+    vendor/lineage/prebuilt/common/etc/init/init.pixelstar-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.pixelstar-updater.rc
 
 # Config
 PRODUCT_PACKAGES += \
