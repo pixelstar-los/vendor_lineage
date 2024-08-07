@@ -134,6 +134,9 @@ PRODUCT_PACKAGES += \
     SimpleDeviceConfig \
     SimpleSettingsConfig
 
+PRODUCT_PACKAGES += \
+    BatteryStatsViewer 
+
 # Extra tools in Lineage
 PRODUCT_PACKAGES += \
     bash \
